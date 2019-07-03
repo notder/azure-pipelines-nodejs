@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nodejs-12:
+    image: notder/azure-pipelines-nodejs:12
+    environment:
+      AZP_POOL: nodejs
+      AZP_AGENT_NAME: nodejs-12
+      AZP_URL: https://dev.azure.com/[Organization]
+      AZP_TOKEN: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    restart: always
+    networks:
+      - azure-nodejs-12-network
+
+networks:
+  azure-nodejs-12-network:
+    driver: bridge

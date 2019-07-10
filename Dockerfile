@@ -13,6 +13,7 @@ RUN apt-get update \
         libcurl3 \
         libicu57
 
+RUN rm -rf /var/lib/apt/lists/*
 WORKDIR /azp
 COPY ./start.sh /azp/
 RUN chmod +x /azp/start.sh

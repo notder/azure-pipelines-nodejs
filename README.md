@@ -1,6 +1,6 @@
 [![GitHub](https://img.shields.io/badge/github-azure--pipelines--nodejs-blue.svg "notder")](https://github.com/notder/azure-pipelines-nodejs)
 
-# Azure Pepelines NodeJS Docker Images
+# Azure Pipelines NodeJS Docker Images
 This image using [nodejs official image](https://hub.docker.com/_/node) for run self-hosted agents on Azure Pipelines
 
 ### [Running a self-hosted agent in Docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
